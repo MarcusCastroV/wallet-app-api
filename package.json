@@ -1,5 +1,25 @@
 {
+  "name": "wallet-app-backend",
+  "version": "1.0.0",
+  "description": "Wallet finances app API using Node.js and Postgres",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusCastroV/wallet-app-backend.git"
+  },
+  "author": "Marcus Castro",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
-  }
+    "express": "^4.18.2",
+    "pg": "^8.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/MarcusCastroV/wallet-app-backend/issues"
+  },
+  "homepage": "https://github.com/MarcusCastroV/wallet-app-backend#readme"
 }
